@@ -11,7 +11,9 @@ jobRouter.route('/view')
      .get(jobController.getJobs);
 
 jobRouter.route('/add')
-     .post(jobController.addJob)
+     .post(jobController.addJob);
+	 
+jobRouter.route('/update')
      .put(jobController.updateJob);
 
 

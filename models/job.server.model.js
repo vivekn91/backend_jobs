@@ -13,6 +13,8 @@ var Schema = mongoose.Schema({
   job_location: String,
   requiredNo: { type: Number, min: 0, max: 100 },
   appliedCount : Number,
+  appliedUsers : Array,
+  shortlistedUsers :Array,
   /*appliedUsers : [{type: Schema.Types.ObjectId, ref: 'User'}],
   shortlistedUsers : [{type: Schema.Types.ObjectId, ref: 'User'}],
   endDate : Date,
