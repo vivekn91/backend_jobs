@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 //import models
 import JobPortal from '../models/job.server.model';
 
+
 export const getJobs = (req,res) => {
   JobPortal.find().exec((err,jobs) => {
     if(err){
