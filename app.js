@@ -10,6 +10,7 @@ import bb from 'express-busboy';
 // import routes
 import todoRoutes from './routes/todo.server.route';
 import jobRouter from './routes/job.server.route';
+import userRouter from './routes/user.server.route';
 
 
 // define our app using express
